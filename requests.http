@@ -1,0 +1,30 @@
+GET http://localhost:5212/users
+
+###
+
+GET http://localhost:5212/users/1
+
+###
+
+POST http://localhost:5212/users HTTP/1.1
+content-type: application/json
+
+{
+    "userName":"Ozgur",
+    "password":"za123"
+}
+
+###
+
+PUT http://localhost:5212/users/1 HTTP/1.1
+content-type: application/json
+
+{
+    "userName":"Ozgur",
+    "password":"za124"
+}
+
+###
+
+DELETE http://localhost:5212/users/2 HTTP/1.1
+
