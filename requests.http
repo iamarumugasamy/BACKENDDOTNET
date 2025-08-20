@@ -10,8 +10,8 @@ POST http://localhost:5212/users HTTP/1.1
 content-type: application/json
 
 {
-    "userName":"Ozgur",
-    "password":"za123"
+    "userName":"dotnet",
+    "password":"dn123"
 }
 
 ###
@@ -20,11 +20,12 @@ PUT http://localhost:5212/users/1 HTTP/1.1
 content-type: application/json
 
 {
-    "userName":"Ozgur",
-    "password":"za124"
+    "userName":"simpleapi",
+    "password":"sa123"
 }
 
 ###
 
 DELETE http://localhost:5212/users/2 HTTP/1.1
+
 
